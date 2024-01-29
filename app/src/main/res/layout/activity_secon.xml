@@ -6,38 +6,33 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context=".MainActivity">
+    tools:context=".SeconActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="LOGIN" />
+        android:text="SEGUNDA ACTIVIDAD"
+        android:textSize="20sp" />
 
-    <EditText
-        android:id="@+id/txtUsuarioMain"
+    <TextView
+        android:id="@+id/lbNombreSecond"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:ems="10"
-        android:hint="Usuario"
-        android:inputType="text" />
+        android:text="TextView" />
 
-    <EditText
-        android:id="@+id/txtPasswordMain"
+    <TextView
+        android:id="@+id/lbpasswordSecond"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:ems="10"
-        android:hint="password"
-        android:inputType="textPassword" />
+        android:text="TextView" />
 
     <Button
-        android:id="@+id/btnLoginMain"
+        android:id="@+id/btnLogOutSecond"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="LOGIN" />
+        android:text="LOGOUT" />
 </LinearLayout>
